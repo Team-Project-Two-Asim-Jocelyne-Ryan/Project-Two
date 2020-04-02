@@ -50,14 +50,14 @@ p{
 	display: block;
 	padding: 3em;
 }
-ul{
-	margin-right: auto;
+div#questions{
+	text-align: left;
+	display: block;
+	padding: 20px;
+	background-color: #2C5EAF;
 	margin-left: auto;
-}
-li{
 	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
+	margin-top: 10px;
 }
 .section{
 	font-size: 300%;
