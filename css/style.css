@@ -1,5 +1,6 @@
 body{
-	background-color: white;	
+	background-color: white;
+	width: 100%;
 }
 
 div.header{
@@ -58,6 +59,7 @@ div#questions{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
+	width: 60%;
 }
 .section{
 	font-size: 300%;
