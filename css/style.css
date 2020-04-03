@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 body{
 	background-color: white;
@@ -23,8 +24,8 @@ a{
 	color: white;
 	text-decoration: none;
 	font-size: 120%;
-	border-right: 3px solid black;
 	padding: 0 20px;
+	border-right: 3px solid black;
 	margin: 0;
 }
 a:last-child{
@@ -47,10 +48,13 @@ div.navbar{
 	display: block;
 	width: 100%;
 	text-align: center;
+	margin: 0;
 }
 h2{
 	text-align: center;
 	font-size: 150%;
+	color: black;
+	font-family: 'Baloo 2', cursive;
 }
 p{
 	margin-right: auto;
@@ -66,9 +70,19 @@ div.overview{
 	background-color: #2C5EAF;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
+	margin-top: 30px;
 	width: 60%;
 	color: white;
+	border-radius: 6px;
+	border: 2px solid black;
+	font-family: 'Ubuntu', sans-serif;
+}
+div.text{
+	text-align: center;
+	padding: 10px 25px;
+	background-color: #5582BF;
+	border-radius: 8px;
+	border: 2px solid black;
 }
 .section{
 	font-size: 300%;
