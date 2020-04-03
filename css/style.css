@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+
 body{
 	background-color: white;
 	width: 100%;
@@ -5,8 +7,8 @@ body{
 
 div.header{
 	display: block;
-	font-size: 200%;
 	text-align: center;
+	font-family: 'Baloo 2', cursive;
 }
 
 .top{
@@ -89,7 +91,6 @@ div.overview{
 	margin-left: auto;
 	margin-right: auto;
 }
-img#logo{
-	height: 300%;
-	width: 300%;
+#ISUD{
+	font-size: 300%
 }
