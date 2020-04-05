@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 body{
-	background-color: white;
+	background-color: #4A5259;
+	margin: 0;
+	padding: 0;
 }
 
 div.header{
@@ -11,7 +13,9 @@ div.header{
 	font-family: 'Baloo 2', cursive;
 	padding: 15px 20px
 	width: 100%;
-	background-color: white;
+	background-color: #5582BF;
+	border-bottom: 2px solid black;
+
 }
 
 .top{
@@ -74,8 +78,11 @@ div.overview{
 	width: 60%;
 	color: white;
 	border-radius: 6px;
-	border: 2px solid black;
 	font-family: 'Ubuntu', sans-serif;
+	box-shadow: 5px 5px 5px #171E23;
+}
+div.overview:last-child{
+	margin-bottom: 30px;
 }
 div.text{
 	text-align: center;
@@ -84,6 +91,7 @@ div.text{
 	border-radius: 8px;
 	border: 2px solid black;
 }
+
 .section{
 	font-size: 300%;
 	padding: 25px;
