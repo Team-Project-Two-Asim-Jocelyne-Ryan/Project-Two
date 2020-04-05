@@ -103,6 +103,13 @@ div.text{
 	margin-left: auto;
 	margin-top: 10px;
 }
+.information{
+	width: 60%
+	padding 25px;
+	display: block;
+	margin: 0 auto;
+	background-color: #5582BF;
+}
 .ins{
 	display: inline-block;
 }
@@ -121,4 +128,26 @@ div.text{
 }
 #ISUD{
 	font-size: 300%
+}
+.display{
+	display: inline-block;
+	width: 18%;
+	height: 18%;
+	box-shadow: 5px 5px 5px #171E23;
+	border: 3px solid white;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 30px;
+}
+.display:first-child{
+	margin-left: auto;
+}
+.display:last-child{
+	margin-right: auto;
+}
+div#images{
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	padding: 0;
 }
