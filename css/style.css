@@ -106,7 +106,7 @@ div.text{
 .information{
 	width: 56.5%;
 	padding: 25px;
-	display: block;
+	display: none;
 	margin: 0 auto;
 	background-color: #5582BF;
 }
@@ -145,6 +145,7 @@ div.text{
 .display:last-child{
 	margin-right: auto;
 }
+
 div#images{
 	margin: 0 auto;
 	display: block;
