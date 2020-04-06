@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
 
 body{
 	background-color: #4A5259;
@@ -45,6 +46,7 @@ a.active{
 	margin: 0;
 	height: 100%;
 	border-bottom: 5px solid white;
+	font-weight: bold;
 }
 
 div.navbar{
@@ -53,6 +55,7 @@ div.navbar{
 	width: 100%;
 	text-align: center;
 	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
 }
 h2{
 	text-align: center;
@@ -94,7 +97,7 @@ div.text{
 
 .section{
 	font-size: 300%;
-	padding: 25px;
+	padding: 10px 20px;
 	text-align: center;
 	display: block;
 	background-color: #2C5EAF;
@@ -102,10 +105,16 @@ div.text{
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 10px;
+	border: 2px solid black;
+	border-radius: 4px;
+	color: white;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px #171E23;
 }
 .information{
 	width: 56.5%;
-	padding: 25px;
+	padding: 20px;
 	display: none;
 	margin: 0 auto;
 	background-color: #5582BF;
