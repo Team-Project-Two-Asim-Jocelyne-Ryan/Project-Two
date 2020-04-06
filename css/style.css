@@ -151,6 +151,7 @@ div.text{
 	box-shadow: 3px 3px 3px #171E23;
 	border: 2px solid black;
 }
+
 .inner{
 	padding: 5px 5px;
 	background-color: #5582BF;
@@ -219,4 +220,11 @@ div#images{
 	font-family: 'Muli', sans-serif;
 	color: white;
 	box-shadow: 3px 3px 3px #171E23;
+}
+.signtitle{
+	display: block;
+	font-size: 170%;
+	color: white;
+	font-style: italic;
+	text-shadow: 5px 5px 5px #171E23;
 }
