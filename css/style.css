@@ -2,13 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Inria+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 body{
 	background-color: #4A5259;
 	margin: 0;
 	padding: 0;
+	margin-bottom: 40px;
 }
-
+input{
+	width: 80%;
+	border-radius: 3px;
+	border: none;
+	font-size: 110%;
+}
 div.header{
 	display: block;
 	text-align: center;
@@ -125,14 +132,13 @@ div.text{
 }
 .ins{
 	display: block;
-
 }
 .fields{
 	display: block;
 	margin-top: 10px;
-	padding: 5px 5px;
-	background-color: #5582BF;
-	border-radius: 4px;
+	margin-bottom: 10px;
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
 }
 .sign{
 	width: 50%;
@@ -142,9 +148,18 @@ div.text{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 8px;
-	box-shadow: 5px 5px 5px #171E23;
-
+	box-shadow: 3px 3px 3px #171E23;
+	border: 2px solid black;
+}
+.inner{
+	padding: 5px 5px;
+	background-color: #5582BF;
+	border-radius: 4px;
+	width: 40%;
+	margin-left: 5px;
+	margin-right: auto;
+	margin-top: 10px;
+	float: left;
 }
 #ISUD{
 	font-size: 300%
@@ -187,4 +202,21 @@ div#images{
 	box-shadow: 5px 5px 5px #171E23;
 	width: 80%;
 	margin: 20px auto;
+}
+#clip{
+	height: 30%;
+	width: 30%;
+	float: right;
+}
+#submit{
+	margin: 8px auto;
+	display: block;
+	padding: 10px 15px;
+	width: 51%;
+	background-color: #2C5EAF;
+	border: 2px solid black;
+	font-size: 150%;
+	font-family: 'Muli', sans-serif;
+	color: white;
+	box-shadow: 3px 3px 3px #171E23;
 }
