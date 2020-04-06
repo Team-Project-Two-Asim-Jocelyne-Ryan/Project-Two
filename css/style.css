@@ -208,6 +208,7 @@ div#images{
 	height: 30%;
 	width: 30%;
 	float: right;
+	margin-right: 20px;
 }
 #submit{
 	margin: 8px auto;
