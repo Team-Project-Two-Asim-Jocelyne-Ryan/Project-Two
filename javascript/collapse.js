@@ -11,6 +11,6 @@ function collapse() {
 	 		else {
 	 			info.style.display = "block";
 	 		}
-	 	});
+	 	})
 	 }
 }
