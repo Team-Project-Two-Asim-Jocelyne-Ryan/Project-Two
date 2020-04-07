@@ -193,7 +193,11 @@ div.text{
 .display:last-child{
 	margin-right: auto;
 }
-
+#link{
+	padding: 0;
+	margin: 0;
+	font-family: 'Inria Sans', sans-serif;
+}
 div#images{
 	margin: 0 auto;
 	display: block;
