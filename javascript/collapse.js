@@ -1,11 +1,8 @@
 function collapse() {
-		var sec = document.getElementsByClassName("section");
-		var information = document.getElementsByClassName("information");
-		var disp = information.style.display.value;
-	 	if (disp === "none") {
+	 	if (document.getElementsByClassName("information").style.display === "none") {
 	 		information.style.display = "block";
 	 	}
-	 	if (disp === "block"){
+	 	if (document.getElementsByClassName("information").style.display === "block"){
 	 		information.style.display = "none";
 	 	}
 }
