@@ -230,3 +230,67 @@ div#images{
 	font-style: italic;
 	text-shadow: 5px 5px 5px #171E23;
 }
+@media screen and (min-width: 400px){
+	body{
+		width: 400px;
+		margin: 0;
+		padding: 0;
+	}
+	div.header{
+		width: 400px;
+		font-size: 35%;
+		margin: 0;
+		padding: 0;
+	}
+	#logo{
+		width: 55px;
+		height: 55px;
+	}
+	div.navbar{
+		width: 400px;
+	}
+	a{
+		font-size: 20%;
+	}
+	.sign{
+		width: 350px;
+	}
+	.inner{
+		width: 60%;
+	}
+	.section, .information{
+		width: 300px;
+	}
+}
+@media screen and (min-width: 700px){
+	body{
+		width: 700px;
+		margin: 0;
+		padding: 0;
+	}
+	div.header{
+		width: 700px;
+		font-size: 60%;
+		margin: 0;
+		padding: 0;
+	}
+	#logo{
+		width: 55px;
+		height: 55px;
+	}
+	div.navbar{
+		width: 700px;
+	}
+	a{
+		font-size: 20%;
+	}
+	.sign{
+		width: 650px;
+	}
+	.inner{
+		width: 60%;
+	}
+	.section, .information{
+		width: 80%;
+	}
+}
