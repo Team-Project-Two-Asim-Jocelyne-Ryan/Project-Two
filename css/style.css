@@ -130,7 +130,7 @@ div.text{
 .information{
 	width: 56.5%;
 	padding: 20px;
-	display: block;
+	display: none;
 	margin: 5px auto;
 	background-color: #5582BF;
 	border-radius: 4px;

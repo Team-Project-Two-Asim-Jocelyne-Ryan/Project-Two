@@ -1,8 +1,16 @@
+var sec = document.getElementsByClassName("section")
+var i;
 function collapse() {
-	 	if (document.getElementsByClassName("information").style.display === "none") {
-	 		information.style.display = "block";
-	 	}
-	 	if (document.getElementsByClassName("information").style.display === "block"){
-	 		information.style.display = "none";
-	 	}
+	 for (i = 0; i < sec.length; i++) {
+	 	sec[i].addEventListener("click", function(){
+	 		this.classList.toggle("active");
+	 		var info = this.nextElementSibling;
+	 		if (info.style.display === "block"){
+	 			info.style.display = "none";
+	 		}
+	 		else {
+	 			info.style.display = "block";
+	 		}
+	 	})
+	 }
 }
