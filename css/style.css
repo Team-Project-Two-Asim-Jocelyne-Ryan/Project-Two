@@ -230,12 +230,9 @@ div#images{
 	font-style: italic;
 	text-shadow: 5px 5px 5px #171E23;
 }
-@media screen and (min-width: 400px){
-	body{
-		width: 400px;
-		margin: 0;
-		padding: 0;
-	}
+
+@media screen and (min-width: 400px) and (max-width: 699px){
+
 	div.header{
 		width: 400px;
 		font-size: 35%;
@@ -262,14 +259,10 @@ div#images{
 		width: 300px;
 	}
 }
-@media screen and (min-width: 700px){
-	body{
-		width: 700px;
-		margin: 0;
-		padding: 0;
-	}
+@media screen and (min-width: 700px) and (max-width: 800px){
+
 	div.header{
-		width: 700px;
+		width: 100%;
 		font-size: 60%;
 		margin: 0;
 		padding: 0;
