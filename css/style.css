@@ -53,6 +53,7 @@ a:last-child{
 a:hover{
 	background-color: #0A3578;
 	padding: 10px 20px;
+	margin-left: -3.5px;
 }
 a.active{
 	background-color: #0A3578;
@@ -61,6 +62,7 @@ a.active{
 	height: 100%;
 	border-bottom: 5px solid white;
 	font-weight: bold;
+	margin-left: -3.5px;
 }
 
 div.navbar{
@@ -232,6 +234,9 @@ div#images{
 	font-family: 'Muli', sans-serif;
 	color: white;
 	box-shadow: 3px 3px 3px #171E23;
+}
+#submit:hover{
+	background-color: #0A3578
 }
 .signtitle{
 	display: block;
