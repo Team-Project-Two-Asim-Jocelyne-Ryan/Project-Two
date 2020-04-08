@@ -138,6 +138,9 @@ div.text{
 	border: 2px solid black;
 	font-family: 'Inria Sans', sans-serif;
 }
+.section:hover, .activesec{
+	border-color: white;
+}
 .ins{
 	display: block;
 }
@@ -237,7 +240,12 @@ div#images{
 	font-style: italic;
 	text-shadow: 5px 5px 5px #171E23;
 }
-
+#link{
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: none;
+}
 @media screen and (min-width: 400px) and (max-width: 699px){
 
 	div.header{
