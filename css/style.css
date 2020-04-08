@@ -126,6 +126,7 @@ div.text{
 	font-family: 'Oxygen', sans-serif;
 	font-weight: bold;
 	text-shadow: 5px 5px 5px #171E23;
+	outline: none;
 }
 .information{
 	width: 56.5%;
