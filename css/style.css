@@ -64,8 +64,7 @@ a.active{
 	font-weight: bold;
 	margin-left: -3.5px;
 }
-
-nav{
+.nav{
 	background-color: #2C5EAF;
 	display: block;
 	width: 100%;
@@ -275,7 +274,7 @@ div#images{
 		width: 55px;
 		height: 55px;
 	}
-	div.navbar{
+	.nav{
 		width: 400px;
 	}
 	a{
@@ -303,7 +302,7 @@ div#images{
 		width: 55px;
 		height: 55px;
 	}
-	div.navbar{
+	.nav{
 		width: 700px;
 	}
 	a{
