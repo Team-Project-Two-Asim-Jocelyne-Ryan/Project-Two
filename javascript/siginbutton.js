@@ -1,5 +1,5 @@
 function Signup() {
-    alert(" Thanks for signing");
+    alert(" Thanks for joining);
    
     return false;
   }
