@@ -79,6 +79,7 @@ h2{
 	color: black;
 	font-family: 'Baloo 2', cursive;
 }
+
 p{
 	margin: 15px;
 }
@@ -254,7 +255,7 @@ div#images{
 #submit:hover{
 	background-color: #0A3578
 }
-.signtitle{
+.pagetitle{
 	display: block;
 	font-size: 200%;
 	color: white;
@@ -267,10 +268,10 @@ div#images{
 	margin: 0;
 	
 }
-@media screen and (min-width: 400px) and (max-width: 699px){
 
+@media screen and (min-width: 300px) and (max-width: 699px){
 	div.header{
-		width: 400px;
+		width: 100%;
 		font-size: 35%;
 		margin: 0;
 		padding: 0;
@@ -279,20 +280,23 @@ div#images{
 		width: 55px;
 		height: 55px;
 	}
-	.nav{
-		width: 400px;
+	nav{
+		width: 100%;
 	}
 	a{
-		font-size: 20%;
+		font-size: 80%;
 	}
 	.sign{
-		width: 350px;
+		width: 75%;
 	}
 	.inner{
 		width: 60%;
 	}
 	.section, .information{
-		width: 300px;
+		width: 60%;
+	}
+	.section{
+		font-size: 150%;
 	}
 }
 @media screen and (min-width: 700px) and (max-width: 800px){
@@ -311,7 +315,7 @@ div#images{
 		width: 700px;
 	}
 	a{
-		font-size: 20%;
+		font-size: 80%;
 	}
 	.sign{
 		width: 650px;
@@ -321,5 +325,8 @@ div#images{
 	}
 	.section, .information{
 		width: 80%;
+	}
+	.section{
+		font-size: 170%;
 	}
 }
