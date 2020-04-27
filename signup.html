@@ -9,6 +9,7 @@
       <link rel="stylesheet" href="css/normalize.css"/>
       <link rel="stylesheet" href="css/style.css"/>
  </head>
+ <body>
    <div class ="header">
       <img id="logo" class="top" src="images/ISUD_Logo.jpg" alt="logo_signup">
       <h2 id="ISUD" class="top">International Society for Universal Dialogue</h2>
@@ -23,7 +24,7 @@
    </nav>
    <h2 class="pagetitle">Join our Community! Get Involved in the Dialogue!</h2>
    <p id="calltoaction">By joing our community  you will get updates on organization through email. Keeping up with events, and being able to join them. Sign up now and become part of the dialogue! Join us in making the world a better place!</p>
-   <form method="get" action="#null" autocomplete="on">
+   <form name="signup" method="get" action="#null" autocomplete="on" onsubmit="return Signup()">
       <fieldset class="sign">
          <div class="fields">
             <div class="inner">
@@ -47,7 +48,7 @@
             <img id="clip" class="outer" src="images/clip.png" alt="clip">
          </div>
       </fieldset>
-      <button id="submit" onClick="Signup" >Join us</button> 
+      <input type="submit" id="submit" value="Join Us!"> 
    </form>
    </body>
 </html>
