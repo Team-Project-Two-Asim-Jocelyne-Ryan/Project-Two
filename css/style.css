@@ -320,6 +320,13 @@ div#images{
 	.section{
 		font-size: 150%;
 	}
+	.pagetitle{
+		width: 60%;
+		font-size: 130%;
+	}
+	#calltoaction{
+		width: 75%
+	}
 }
 @media screen and (min-width: 700px) and (max-width: 800px){
 
@@ -333,14 +340,14 @@ div#images{
 		width: 55px;
 		height: 55px;
 	}
-	.nav{
-		width: 700px;
+	nav{
+		width: 100%;
 	}
 	a{
 		font-size: 80%;
 	}
 	.sign{
-		width: 650px;
+		width: 90%;
 	}
 	.inner{
 		width: 60%;
@@ -350,5 +357,12 @@ div#images{
 	}
 	.section{
 		font-size: 170%;
+	}
+	.pagetitle{
+		width: 80%;
+		font-size: 160%;
+	}
+	#calltoaction{
+		width: 90%
 	}
 }
